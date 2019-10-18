@@ -1,0 +1,234 @@
+#myVideo{
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header-bg{
+	background-color: rgba(280, 280, 280, 0.5);
+	color: #362f2f;
+	padding-top: 30px;
+	padding-bottom: 30px
+
+}
+
+.header-title{
+	letter-spacing: 25px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Source+Sans+Pro');
+
+$mouse-width: 2.5rem;
+
+
+
+
+
+.mouse {
+	max-width: $mouse-width;
+	width: 100%;
+	height: auto;
+}
+
+.scroll {
+	animation-name: scroll;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.650, -0.550, 0.250, 1.500);
+	animation-iteration-count: infinite;
+	transform-origin: 50% 20.5px;
+	will-change: transform, opacity;
+	opacity: 1;
+}
+
+.scroll-link {
+	position: fixed;
+	bottom: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@keyframes scroll {
+
+	0%, 20% {
+		transform: translateY(0) scaleY(1);
+	}
+
+	100% {
+		transform: translateY(36px) scaleY(2);
+		opacity: 0;
+	}
+
+}
+
+.section2-card{
+	background-color:#fff;
+	background-image: url(../img/card-bg.jpg);
+	border-radius: 0px;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,.07);
+	padding: 30px ;
+	
+}
+
+.main-raised {
+    margin: -60px 30px 0px;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.card-body{
+	text-align: left;
+}
+
+.section2-card-body{
+	margin: -60px 30px 0px;
+}
+.section2-card-footer{
+	margin: 0px;
+}
+
+
+.btn-primary{
+	background-color: #4a8a98 !important;
+	border-color: #4a8a98 !important;
+	box-shadow: none !important;
+}
+
+.nav-link:hover{
+	background-color: rgba(280, 280, 280, 0.2);
+
+}
+
+.navbar-brand{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.navbar-brand:hover{
+	background-color: rgba(280, 280, 280, 0.2);
+	border-radius: 3px;
+}
+
+.section3{
+	background-color: #4a8a98 ; 
+	color: white;
+	min-height: 90vh;
+}
+
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.section3-header{
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: 5px;
+
+}
+
+.section3-subHeader{
+	font-family: 'Dancing Script';
+}
+
+h6.section3-header{
+	margin:0;
+}
+
+h1.section3-subHeader{
+	margin: 0;
+}
+
+.videoHolder{
+	display: inline-block;
+	margin-top: 20px;
+	text-align: center;
+	max-width: 776px;
+	background-color: white;
+
+}
+
+#colorVideo{
+	max-width: 771px;
+	padding: 5px;
+	text-align: center;
+}
+
+.section4{
+	background-image: url(../img/section-bg.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-header2 {
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.section5{
+	min-height: 60vh;
+}
+
+.section5-left{
+	min-height: 60vh;
+	background-image: url(../img/faces/avatar.jpg);
+	background-position:center;
+	background-size: cover;
+
+}
+
+.section5-right{
+	min-height: 60vh;
+	background-color: #918589;
+	color: white;
+	
+
+}
+
+.section5-right .row{
+	min-height: 60vh
+}
+
+.section6-header{
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: 10px;
+}
+
+.section7{
+	background-image: url(../img/section6-bg.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.section7-right{
+	min-height: 60vh;
+	background-image: url(../img/faces/marc.jpg);
+	background-position:center;
+	background-size: cover;
+
+}
+
+.section7-left{
+	min-height: 60vh;
+	background-color: #ddd;
+	
+
+}
+.section7-left .row{
+	min-height: 60vh
+}
