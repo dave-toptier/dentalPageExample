@@ -91,9 +91,10 @@ $mouse-width: 2.5rem;
 
 
 .btn-primary{
-	background-color: #4a8a98 !important;
-	border-color: #4a8a98 !important;
+	background-color: #75ADBA  !important;
+	border-color: #75ADBA  !important;
 	box-shadow: none !important;
+	letter-spacing: 3px
 }
 
 .nav-link:hover{
@@ -112,7 +113,7 @@ $mouse-width: 2.5rem;
 }
 
 .section3{
-	background-color: #4a8a98 ; 
+	background-color: #75ADBA ; 
 	color: white;
 	min-height: 90vh;
 }
@@ -176,19 +177,19 @@ h1.section3-subHeader{
 }
 
 .section5{
-	min-height: 60vh;
+	min-height: 90vh;
 }
 
 .section5-left{
-	min-height: 60vh;
-	background-image: url(../img/faces/avatar.jpg);
+	min-height: 90vh;
+	background-image: url(../img/zahra-2.jpg);
 	background-position:center;
 	background-size: cover;
 
 }
 
 .section5-right{
-	min-height: 60vh;
+	min-height: 90vh;
 	background-color: #918589;
 	color: white;
 	
@@ -196,7 +197,7 @@ h1.section3-subHeader{
 }
 
 .section5-right .row{
-	min-height: 60vh
+	min-height: 90vh
 }
 
 .section6-header{
@@ -211,24 +212,33 @@ h1.section3-subHeader{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 90vh;
 
 
 }
 
 .section7-right{
-	min-height: 60vh;
-	background-image: url(../img/faces/marc.jpg);
+	min-height: 90vh;
+	background-image: url(../img/kelly-angel-1.jpg);
 	background-position:center;
 	background-size: cover;
 
 }
 
 .section7-left{
-	min-height: 60vh;
+	min-height: 90vh;
 	background-color: #ddd;
 	
 
 }
 .section7-left .row{
-	min-height: 60vh
+	min-height: 90vh
+}
+
+.section4{
+	min-height: 90vh
+}
+
+.round-corners{
+	border-radius: 30px
 }
