@@ -190,8 +190,8 @@ h1.section3-subHeader{
 
 .section5-right{
 	min-height: 90vh;
-	background-color: #918589;
-	color: white;
+	background-color: #b8a25e;
+	color: black;
 	
 
 }
@@ -227,7 +227,8 @@ h1.section3-subHeader{
 
 .section7-left{
 	min-height: 90vh;
-	background-color: #ddd;
+	background-color: #ddca91;
+	color: black;
 	
 
 }
@@ -241,4 +242,12 @@ h1.section3-subHeader{
 
 .round-corners{
 	border-radius: 30px
+}
+
+.round-img{
+	border-radius: 50%;
+}
+
+.carousel .row{
+	min-height: 40vh;
 }
