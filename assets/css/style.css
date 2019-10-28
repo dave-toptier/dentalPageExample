@@ -248,6 +248,6 @@ h1.section3-subHeader{
 	border-radius: 50%;
 }
 
-.carousel .row{
-	min-height: 20vh;
+.img-title{
+	font-size: .75rem !important;
 }
