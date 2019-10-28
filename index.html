@@ -362,9 +362,42 @@
           </div>
         </div>
   </div>
+  <div class="section section9">
+    <div class="row justify-content-center">
+      <div class="col-md-5" style="min-height: 100%">
+        <div id="map"></div>
+        <script>
+          // Initialize and add the map
+              function initMap() {
+                // The location of Uluru
+                var folsom = {lat: 38.665580, lng: -121.139330};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 16, center: folsom});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: folsom, map: map});
+          }
+        </script>
+      </div>
+      <div class="col-md-5 text-center">
+        <h2>Company</h2>
+        <h3>916.941.9213</h3>
+        <h5>2370 E. Bidwell Street<br>
+        Folsom, CA 95630</h5>
+        <button class="btn btn-primary">Send A Message</button>
+        <h3 style="margin-top: 40px">Office Hours</h3>
+        <h5>MONDAY // 9 AM - 5 PM <br>
+            TUESDAY // 7 AM -  4 PM <br>
+            WEDNESDAY // 7 AM -  4 PM <br>
+            THURSDAY // 7 AM -  4 PM<br>
+            FRIDAY // CLOSED</h5>
+
+      </div>
+    </div>
+  </div>
       
       
-  <footer class="footer footer-default">
+  <footer class="footer footer-default" style="background-color: black; color: white;">
     <div class="container">
       <nav class="float-left">
         <ul>
@@ -414,9 +447,11 @@
   <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
   <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
   <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSnAuWKQXb5_9e4Oym1-A_sZs60XXwmq4&callback=initMap">
+    </script>
 </body>
 
 
