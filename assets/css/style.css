@@ -94,7 +94,11 @@ $mouse-width: 2.5rem;
 	background-color: #75ADBA  !important;
 	border-color: #75ADBA  !important;
 	box-shadow: none !important;
-	letter-spacing: 3px
+	letter-spacing: 2px;
+	color: black !important;
+	font-size: 14px;
+	font-weight: 300;
+
 }
 
 .nav-link:hover{
